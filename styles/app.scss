@@ -1,1 +1,13 @@
-$topbar-background : black;
+
+.top-bar,.top-bar .menu{
+  background-color: #333333;
+
+}
+.menu>li>a{
+  display: inline;
+}
+.top-bar{
+  .menu-text a{
+    color: white;
+  }
+}
