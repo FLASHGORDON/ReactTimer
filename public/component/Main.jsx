@@ -1,9 +1,14 @@
 var React = require("react");
-
+var Navbar = require("./Navbar.jsx");
 var Main = (props) =>{
 	return(
 		<div>
-			this is main.jsx
+			<Navbar/>
+			<div className="row">
+				<div className="medium-5 large-5 small-centered columns">{props.children}</div>
+
+			</div>
+
 		</div>
 	);
 }
